@@ -2,147 +2,379 @@
   "format_version": "1.8.0",
   "minecraft:spawn_rules": {
     "v1.0": {
-      "description": "5x Increased Spawn Rules",
+      "description": "5x Increased Spawn Rules - All Mobs",
       "mobs": [
         {
           "identifier": "minecraft:zombie",
           "spawn_egg": true,
-          "conditions": [
-            {
-              "minecraft:spawns_on_block_filter": [
-                "minecraft:grass",
-                "minecraft:dirt",
-                "minecraft:coarse_dirt",
-                "minecraft:podzol",
-                "minecraft:crimson_nylium",
-                "minecraft:warped_nylium"
-              ]
-            },
-            {
-              "minecraft:brightness": {
-                "min": 0,
-                "max": 7,
-                "operate_on": "block_light"
-              }
-            },
-            {
-              "minecraft:difficulty": "easy|normal|hard"
-            }
-          ],
           "weight": 100,
           "max_mobs": 40
         },
         {
           "identifier": "minecraft:skeleton",
           "spawn_egg": true,
-          "conditions": [
-            {
-              "minecraft:spawns_on_block_filter": [
-                "minecraft:grass",
-                "minecraft:dirt",
-                "minecraft:coarse_dirt",
-                "minecraft:podzol",
-                "minecraft:crimson_nylium",
-                "minecraft:warped_nylium"
-              ]
-            },
-            {
-              "minecraft:brightness": {
-                "min": 0,
-                "max": 7,
-                "operate_on": "block_light"
-              }
-            },
-            {
-              "minecraft:difficulty": "easy|normal|hard"
-            }
-          ],
           "weight": 80,
           "max_mobs": 40
         },
         {
           "identifier": "minecraft:creeper",
           "spawn_egg": true,
-          "conditions": [
-            {
-              "minecraft:spawns_on_block_filter": [
-                "minecraft:grass",
-                "minecraft:dirt",
-                "minecraft:coarse_dirt",
-                "minecraft:podzol",
-                "minecraft:crimson_nylium",
-                "minecraft:warped_nylium"
-              ]
-            },
-            {
-              "minecraft:brightness": {
-                "min": 0,
-                "max": 7,
-                "operate_on": "block_light"
-              }
-            },
-            {
-              "minecraft:difficulty": "easy|normal|hard"
-            }
-          ],
           "weight": 50,
           "max_mobs": 40
         },
         {
           "identifier": "minecraft:spider",
           "spawn_egg": true,
-          "conditions": [
-            {
-              "minecraft:spawns_on_block_filter": [
-                "minecraft:grass",
-                "minecraft:dirt",
-                "minecraft:coarse_dirt",
-                "minecraft:podzol",
-                "minecraft:crimson_nylium",
-                "minecraft:warped_nylium"
-              ]
-            },
-            {
-              "minecraft:brightness": {
-                "min": 0,
-                "max": 7,
-                "operate_on": "block_light"
-              }
-            },
-            {
-              "minecraft:difficulty": "easy|normal|hard"
-            }
-          ],
           "weight": 20,
           "max_mobs": 40
         },
         {
           "identifier": "minecraft:enderman",
           "spawn_egg": true,
-          "conditions": [
-            {
-              "minecraft:spawns_on_block_filter": [
-                "minecraft:grass",
-                "minecraft:dirt",
-                "minecraft:coarse_dirt",
-                "minecraft:podzol",
-                "minecraft:crimson_nylium",
-                "minecraft:warped_nylium"
-              ]
-            },
-            {
-              "minecraft:brightness": {
-                "min": 0,
-                "max": 7,
-                "operate_on": "block_light"
-              }
-            },
-            {
-              "minecraft:difficulty": "easy|normal|hard"
-            }
-          ],
           "weight": 10,
           "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:zombified_piglin",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:husk",
+          "spawn_egg": true,
+          "weight": 80,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:stray",
+          "spawn_egg": true,
+          "weight": 80,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:cave_spider",
+          "spawn_egg": true,
+          "weight": 20,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:drowned",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:phantom",
+          "spawn_egg": true,
+          "weight": 20,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:slime",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:magma_cube",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:ghast",
+          "spawn_egg": true,
+          "weight": 40,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:piglin_brute",
+          "spawn_egg": true,
+          "weight": 20,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:piglin",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:strider",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:blaze",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:silverfish",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:endermite",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:bat",
+          "spawn_egg": true,
+          "weight": 10,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:squid",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:glow_squid",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:cod",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:salmon",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:tropical_fish",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:pufferfish",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:dolphin",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:sheep",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:cow",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:pig",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:chicken",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:horse",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:donkey",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:mule",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:llama",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:trader_llama",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:alpaca",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:wolf",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:cat",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:ocelot",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:panda",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:fox",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:polar_bear",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:bee",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:turtle",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:frog",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:tadpole",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:axolotl",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:rabbit",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:parrot",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:goat",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:camel",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:armadillo",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:mooshroom",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:villager",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:zombie_villager",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:husk",
+          "spawn_egg": true,
+          "weight": 80,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:piglin",
+          "spawn_egg": true,
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:warden",
+          "spawn_egg": false,
+          "weight": 0,
+          "max_mobs": 0
+        },
+        {
+          "identifier": "minecraft:ender_dragon",
+          "spawn_egg": false,
+          "weight": 0,
+          "max_mobs": 0
+        },
+        {
+          "identifier": "minecraft:wither",
+          "spawn_egg": false,
+          "weight": 0,
+          "max_mobs": 0
         }
       ]
     }
