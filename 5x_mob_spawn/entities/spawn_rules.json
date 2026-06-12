@@ -1,0 +1,150 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:spawn_rules": {
+    "v1.0": {
+      "description": "5x Increased Spawn Rules",
+      "mobs": [
+        {
+          "identifier": "minecraft:zombie",
+          "spawn_egg": true,
+          "conditions": [
+            {
+              "minecraft:spawns_on_block_filter": [
+                "minecraft:grass",
+                "minecraft:dirt",
+                "minecraft:coarse_dirt",
+                "minecraft:podzol",
+                "minecraft:crimson_nylium",
+                "minecraft:warped_nylium"
+              ]
+            },
+            {
+              "minecraft:brightness": {
+                "min": 0,
+                "max": 7,
+                "operate_on": "block_light"
+              }
+            },
+            {
+              "minecraft:difficulty": "easy|normal|hard"
+            }
+          ],
+          "weight": 100,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:skeleton",
+          "spawn_egg": true,
+          "conditions": [
+            {
+              "minecraft:spawns_on_block_filter": [
+                "minecraft:grass",
+                "minecraft:dirt",
+                "minecraft:coarse_dirt",
+                "minecraft:podzol",
+                "minecraft:crimson_nylium",
+                "minecraft:warped_nylium"
+              ]
+            },
+            {
+              "minecraft:brightness": {
+                "min": 0,
+                "max": 7,
+                "operate_on": "block_light"
+              }
+            },
+            {
+              "minecraft:difficulty": "easy|normal|hard"
+            }
+          ],
+          "weight": 80,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:creeper",
+          "spawn_egg": true,
+          "conditions": [
+            {
+              "minecraft:spawns_on_block_filter": [
+                "minecraft:grass",
+                "minecraft:dirt",
+                "minecraft:coarse_dirt",
+                "minecraft:podzol",
+                "minecraft:crimson_nylium",
+                "minecraft:warped_nylium"
+              ]
+            },
+            {
+              "minecraft:brightness": {
+                "min": 0,
+                "max": 7,
+                "operate_on": "block_light"
+              }
+            },
+            {
+              "minecraft:difficulty": "easy|normal|hard"
+            }
+          ],
+          "weight": 50,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:spider",
+          "spawn_egg": true,
+          "conditions": [
+            {
+              "minecraft:spawns_on_block_filter": [
+                "minecraft:grass",
+                "minecraft:dirt",
+                "minecraft:coarse_dirt",
+                "minecraft:podzol",
+                "minecraft:crimson_nylium",
+                "minecraft:warped_nylium"
+              ]
+            },
+            {
+              "minecraft:brightness": {
+                "min": 0,
+                "max": 7,
+                "operate_on": "block_light"
+              }
+            },
+            {
+              "minecraft:difficulty": "easy|normal|hard"
+            }
+          ],
+          "weight": 20,
+          "max_mobs": 40
+        },
+        {
+          "identifier": "minecraft:enderman",
+          "spawn_egg": true,
+          "conditions": [
+            {
+              "minecraft:spawns_on_block_filter": [
+                "minecraft:grass",
+                "minecraft:dirt",
+                "minecraft:coarse_dirt",
+                "minecraft:podzol",
+                "minecraft:crimson_nylium",
+                "minecraft:warped_nylium"
+              ]
+            },
+            {
+              "minecraft:brightness": {
+                "min": 0,
+                "max": 7,
+                "operate_on": "block_light"
+              }
+            },
+            {
+              "minecraft:difficulty": "easy|normal|hard"
+            }
+          ],
+          "weight": 10,
+          "max_mobs": 40
+        }
+      ]
+    }
+  }
+}
